@@ -1,0 +1,286 @@
+##Lists of permissions sets defined by Maura Byrne at uchicago##
+######budget######
+* budget.collection.get
+* budget.item.post
+* budget.item.get
+* budget.item.put
+* budget.item.delete
+######circulation-create-delete######
+* circulation.check-out-by-barcode.post
+* circulation.loans.item.post
+* circulation.loans.item.delete
+* circulation.loans.collection.delete
+* circulation.requests.item.post
+* circulation.requests.item.delete
+* circulation.loans.item.delete
+* circulation.loans.collection.delete
+######circulation-update######
+* circulation.check-out-by-barcode.put
+* circulation.loans.item.put
+* circulation.requests.item.put
+######circulation-view######
+* circulation.loans.collection.get
+* circulation.loans.item.get
+* circulation.loan-rules.get
+* circulation.loan-rules.apply.get
+* circulation.loan-rules.apply-all.get
+* circulation.requests.collection.get
+* circulation.requests.item.get
+######finance-create-delete######
+* budget.item.post
+* budget.item.delete
+* fiscal_year.item.post
+* fiscal_year.item.delete
+* fund_distribution.item.post
+* fund_distribution.item.delete
+* fund.item.post
+* fund.item.delete
+* ledger.item.post
+* ledger.item.delete
+* tag.item.post
+* tag.item.delete
+* transaction.item.post
+* transaction.item.delete
+######finance-tag######
+* tag.collection.get
+* tag.item.post
+* tag.item.get
+* tag.item.put
+* tag.item.delete
+######finance-transaction######
+* transaction.collection.get
+* transaction.item.post
+* transaction.item.get
+* transaction.item.put
+* transaction.item.delete
+######finance-update######
+* budget.item.put
+* fiscal_year.item.put
+* fund_distribution.item.put
+* fund.item.put
+* ledger.item.put
+* tag.item.put
+* transaction.item.put
+######finance-view-only######
+* budget.collection.get
+* budget.item.get
+* fiscal_year.collection.get
+* fiscal_year.item.get
+* fund_distribution.collection.get
+* fund_distribution.item.get
+* fund.collection.get
+* fund.item.get
+* ledger.collection.get
+* ledger.item.get
+* tag.collection.get
+* tag.item.get
+* transaction.collection.get
+* transaction.item.get
+######fiscal_year######
+* fiscal_year.collection.get
+* fiscal_year.item.post
+* fiscal_year.item.get
+* fiscal_year.item.put
+* fiscal_year.item.delete
+######fund######
+* fund.collection.get
+* fund.item.post
+* fund.item.get
+* fund.item.put
+* fund.item.delete
+######fund_distribution######
+* fund_distribution.collection.get
+* fund_distribution.item.post
+* fund_distribution.item.get
+* fund_distribution.item.put
+* fund_distribution.item.delete
+######inventory-search######
+* module.inventory.enabled
+* inventory-storage.locations.collection.get
+######inventory-storage-create######
+* inventory-storage.items.item.post
+* inventory-storage.holdings.item.post
+* inventory-storage.instances.item.post
+* inventory-storage.loan-types.item.post
+* inventory-storage.material-types.item.post
+* inventory-storage.shelf-locations.item.post
+* inventory-storage.identifier-types.item.post
+* inventory-storage.contributor-types.item.post
+* inventory-storage.contributor-name-types.item.post
+* inventory-storage.instance-formats.item.post
+* inventory-storage.instance-types.item.post
+* inventory-storage.classification-types.item.post
+* iventory-storage.platforms.item.post
+######inventory-storage-delete######
+* inventory-storage.items.collection.delete
+* inventory-storage.items.item.delete
+* inventory-storage.holdings.collection.delete
+* inventory-storage.holdings.item.delete
+* inventory-storage.instances.collection.delete
+* inventory-storage.instances.item.delete
+* inventory-storage.loan-types.item.delete
+* inventory-storage.material-types.item.delete
+* inventory-storage.shelf-locations.item.delete
+* inventory-storage.identifier-types.item.delete
+* inventory-storage.contributor-types.item.delete
+* inventory-storage.contributor-name-types.item.delete
+* inventory-storage.instance-formats.item.delete
+* inventory-storage.instance-types.item.delete
+* inventory-storage.classification-types.item.delete
+* inventory-storage.platforms.item.delete
+######inventory-storage-update######
+* inventory-storage.items.collection.delete
+* inventory-storage.items.item.delete
+* inventory-storage.holdings.collection.delete
+* inventory-storage.holdings.item.delete
+* inventory-storage.instances.collection.delete
+* inventory-storage.instances.item.delete
+* inventory-storage.loan-types.item.delete
+* inventory-storage.material-types.item.delete
+* inventory-storage.shelf-locations.item.delete
+* inventory-storage.identifier-types.item.delete
+* inventory-storage.contributor-types.item.delete
+* inventory-storage.contributor-name-types.item.delete
+* inventory-storage.instance-formats.item.delete
+* inventory-storage.instance-types.item.delete
+* inventory-storage.classification-types.item.delete
+* inventory-storage.platforms.item.delete
+######inventory-storage-view-only######
+* inventory-storage.items.collection.get
+* inventory-storage.items.item.get
+* inventory-storage.holdings.collection.get
+* inventory-storage.holdings.item.get
+* inventory-storage.instances.collection.get
+* inventory-storage.instances.item.get
+* inventory-storage.loan-types.collection.get
+* inventory-storage.loan-types.item.get
+* inventory-storage.material-types.collection.get
+* inventory-storage.material-types.item.get
+* inventory-storage.shelf-locations.collection.get
+* inventory-storage.shelf-locations.item.get
+* inventory-storage.identifier-types.collection.get
+* inventory-storage.identifier-types.item.get
+* inventory-storage.contributor-types.collection.get
+* inventory-storage.contributor-types.item.get
+* inventory-storage.contributor-name-types.collection.get
+* inventory-storage.contributor-name-types.item.get
+* inventory-storage.instance-formats.collection.get
+* inventory-storage.instance-formats.item.get
+* inventory-storage.instance-types.collection.get
+* inventory-storage.instance-types.item.get
+* inventory-storage.classification-types.collection.get
+* inventory-storage.classification-types.item.get
+* inventory-storage.platforms.collection.get
+* inventory-storage.platforms.item.get
+######ledger######
+* ledger.collection.get
+* ledger.item.post
+* ledger.item.get
+* ledger.item.put
+* ledger.item.delete
+######notes######
+* notes.collection.get
+* notes.item.post
+* notes.item.get
+* notes.item.put
+* notes.item.delete
+* notes.domain.all
+######orders.all######
+* adjustment.all
+* alert.all
+* claim.all
+* cost.all
+* details.all
+* eresource.all
+* license.all
+* location.all
+* order_format.all
+* order_type.all
+* physical.all
+* po_line.all
+* purchase_order.all
+* renewal.all
+* source.all
+* vendor_detail.all
+* workflow_status.all
+######orders-view######
+* adjustment.collection.get
+* adjustment.item.get
+* alert.collection.get
+* alert.item.get
+* claim.collection.get
+* claim.item.get
+* cost.collection.get
+* cost.item.get
+* details.collection.get
+* details.item.get
+* eresource.collection.get
+* eresource.item.get
+* license.collection.get
+* license.item.get
+* location.collection.get
+* location.item.get
+* order_format.collection.get
+* order_format.item.get
+* order_type.collection.get
+* order_type.item.get
+* physical.collection.get
+* physical.item.get
+* po_line.collection.get
+* po_line.item.get
+* purchase_order.collection.get
+* purchase_order.item.get
+* receipt_status.collection.get
+* receipt_status.item.get
+* renewal.collection.get
+* renewal.item.get
+* source.collection.get
+* source.item.get
+* vendor_detail.collection.get
+* vendor_detail.item.get
+* workflow_status.collection.get
+* workflow_status.item.get
+######patron-all######
+* patron.account.item.get
+* patron.renew.item.post
+* patron.hold.item.post
+* patron.hold.item.put
+* patron.hold.item.delete
+######patron-create-update######
+* patron.account.item.get
+* patron.renew.item.post
+* patron.hold.item.post
+* patron.hold.item.put
+######tags.all######
+* tags.collection.get
+* tags.item.get
+* tags.item.post
+* tags.item.put
+* tags.item.delete
+######users-all######
+* users.collection.get
+* users.item.get
+* users.read.basic
+* users.item.post
+* users.item.put
+* users.item.delete
+* usergroups.item.get
+* usergroups.item.post
+* usergroups.item.put
+* usergroups.item.delete
+* addresstypes.item.get
+* addresstypes.item.post
+* addresstypes.item.put
+* addresstypes.item.delete
+* proxiesfor.collection.get
+* proxiesfor.item.get
+* proxiesfor.item.post
+* proxiesfor.item.put
+* proxiesfor.item.delete
+######users-all######
+* users.collection.get
+* users.item.get
+* usergroups.item.get
+* addresstypes.item.get
+* proxiesfor.collection.get
+* proxiesfor.item.get
